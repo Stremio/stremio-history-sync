@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "scripts for syncing from different sources to stremio",
   "main": "index.js",
+  "module": "dist/historySync.js",
+  "engines": {
+    "node": "14.x.x"
+  },
   "scripts": {
     "build": "npx webpack -c webpack.config.js"
   },

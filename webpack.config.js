@@ -13,7 +13,7 @@ module.exports = {
     output: {
         library: 'historySync',
         libraryTarget: 'umd',
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'dist'),
         filename: 'historySync.js',
     },
     resolve: {

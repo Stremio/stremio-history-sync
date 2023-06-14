@@ -103,7 +103,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var traktSync = __webpack_require__(/*! ./lib/trakt.js */ \"./lib/trakt.js\");\n\n//if(window) window.historySync = {traktSync}; \n//else \n\nmodule.exports = {\n  traktSync: traktSync\n};\n\n//# sourceURL=webpack://historySync/./index.js?");
+eval("var traktSync = __webpack_require__(/*! ./lib/trakt.js */ \"./lib/trakt.js\");\nmodule.exports = {\n  traktSync: traktSync\n};\n\n//# sourceURL=webpack://historySync/./index.js?");
 
 /***/ }),
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trakt.js Example</title>
+</head>
+
+<body>
+    <div id="traktSync">
+    <h1>Trakt.js Example</h1>
+
+    <input type="text" id="inputText">
+    <button id="traktSyncButton">Call Trakt Function</button>
+    <script src="../dist/historySync.js"></script>
+    <script>
+        document.getElementById("traktSyncButton").addEventListener("click", function () {
+            var inputText = document.getElementById("inputText").value;
+            historySync.traktSync(inputText);
+        });
+    </script>
+    </div>
+</body>
+
+</html>

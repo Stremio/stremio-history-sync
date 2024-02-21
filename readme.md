@@ -28,7 +28,7 @@ Include the compiled script in your HTML file:
 ```
 Then you can use the functions in your JavaScript code:
 ```javascript
-traktSync(authKey); // stremio API key
+historySync.traktSync(authKey); // stremio API key
 ```
 
 authKey is the authentication key for the Stremio API.

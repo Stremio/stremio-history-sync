@@ -5,11 +5,6 @@ module.exports = {
     mode: 'development',
     entry: './index.js',
     target: 'web',
-    plugins: [
-        new webpack.ProvidePlugin({
-            'fetch': 'exports?self.fetch!whatwg-fetch'
-        }),
-    ],
     output: {
         library: 'historySync',
         libraryTarget: 'umd',
@@ -17,10 +12,7 @@ module.exports = {
         filename: 'historySync.js',
     },
     resolve: {
-        extensions: ['.js'],
-        alias: {
-            //'node-fetch': 'whatwg-fetch/fetch.js',
-        },
+        extensions: ['.js']
     },
     module: {
         rules: [
